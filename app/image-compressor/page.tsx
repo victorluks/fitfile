@@ -2,26 +2,33 @@ import type { Metadata } from "next";
 import ImageFitTool from "@/components/ImageFitTool";
 
 export const metadata: Metadata = {
-  title: "Compress Images Online — JPG, PNG & WebP",
+  title: "Free Image Compressor — Compress JPG, PNG & WebP Online",
   description:
-    "Compress JPG, PNG, and WebP images online. Reduce image file size to a specific KB limit while keeping your image usable.",
+    "Free online image compressor for JPG, PNG, and WebP. Compress images to a specific file size such as 100KB while keeping them ready to use.",
   keywords: [
     "image compressor",
+    "free image compressor",
     "compress image online",
     "compress image to 100kb",
+    "compress image to 200kb",
     "compress JPG",
     "compress PNG",
     "compress WebP",
     "reduce image size",
+    "reduce JPG file size",
+    "reduce PNG file size",
     "image compressor to 100kb",
+    "JPG compressor",
+    "PNG compressor",
+    "WebP compressor",
   ],
   alternates: {
     canonical: "/image-compressor",
   },
   openGraph: {
-    title: "Compress Images Online — JPG, PNG & WebP",
+    title: "Free Image Compressor — Compress JPG, PNG & WebP Online",
     description:
-      "Reduce JPG, PNG, and WebP image file sizes to the limit you need with FitFile.",
+      "Compress JPG, PNG, and WebP images online to a specific file-size limit such as 100KB.",
     url: "/image-compressor",
     type: "website",
   },
