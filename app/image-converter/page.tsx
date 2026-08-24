@@ -3,9 +3,9 @@ import ImageFitTool from "@/components/ImageFitTool";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Free Image Converter — Convert JPG, PNG, WebP & AVIF",
+  title: "Free Image Converter — JPG, PNG, WebP & AVIF",
   description:
-    "Convert JPG, PNG, WebP, and AVIF images online for free. Change your image format quickly while keeping your image ready to use.",
+    "Free online image converter for JPG, PNG, WebP, and AVIF. Convert JPG to PNG, PNG to JPG, JPG to WebP, and other image formats quickly.",
   keywords: [
     "image converter",
     "free image converter",
@@ -20,7 +20,12 @@ export const metadata: Metadata = {
     "JPG to WebP",
     "PNG to WebP",
     "WebP to JPG",
+    "WebP to PNG",
+    "AVIF converter",
     "image format converter",
+    "convert JPG to PNG online",
+    "convert PNG to JPG online",
+    "convert JPG to WebP online",
   ],
   alternates: {
     canonical: "/image-converter",
@@ -28,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Free Image Converter — JPG, PNG, WebP & AVIF",
     description:
-      "Convert JPG, PNG, WebP, and AVIF images online with FitFile.",
+      "Convert JPG, PNG, WebP, and AVIF images online for free with FitFile.",
     url: "https://fitfile.vercel.app/image-converter",
     siteName: "FitFile",
     type: "website",

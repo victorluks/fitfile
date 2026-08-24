@@ -2,29 +2,41 @@ import type { Metadata } from "next";
 import ImageFitTool from "@/components/ImageFitTool";
 
 export const metadata: Metadata = {
-  title: "Resize Images Online — Exact JPG, PNG & WebP Dimensions",
+  title: "Free Image Resizer — Resize JPG, PNG & WebP Online",
   description:
-    "Resize JPG, PNG, and WebP images online to exact width and height. Preserve the original aspect ratio when needed.",
+    "Free online image resizer for JPG, PNG, and WebP. Resize images to exact width and height while preserving the original aspect ratio when needed.",
   keywords: [
     "image resizer",
+    "free image resizer",
     "resize image online",
     "resize image",
     "resize JPG",
     "resize PNG",
     "resize WebP",
     "resize image to exact dimensions",
+    "resize image to specific size",
+    "resize image to specific dimensions",
+    "JPG resizer",
+    "PNG resizer",
+    "WebP resizer",
+    "change image dimensions",
     "image resize tool",
+    "online image resizing",
   ],
   alternates: {
     canonical: "/image-resizer",
   },
   openGraph: {
-    title: "Resize Images Online — Exact JPG, PNG & WebP Dimensions",
+    title: "Free Image Resizer — Resize JPG, PNG & WebP Online",
     description:
-      "Resize JPG, PNG, and WebP images to exact dimensions online with FitFile. Preserve the original aspect ratio when needed.",
+      "Resize JPG, PNG, and WebP images to exact dimensions online. Preserve the original aspect ratio when needed.",
     url: "https://fitfile.vercel.app/image-resizer",
     siteName: "FitFile",
     type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
