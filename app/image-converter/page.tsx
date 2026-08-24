@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Free Image Converter — JPG, PNG, WebP & AVIF",
     description:
       "Convert JPG, PNG, WebP, and AVIF images online with FitFile.",
-    url: "https://fitfile.app/image-converter",
+    url: "https://fitfile.vercel.app/image-converter",
     siteName: "FitFile",
     type: "website",
   },
@@ -44,7 +44,7 @@ export default function ImageConverterPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "FitFile Image Converter",
-    url: "https://fitfile.app/image-converter",
+    url: "https://fitfile.vercel.app/image-converter",
     description:
       "Convert JPG, PNG, WebP, and AVIF images online to the format you need.",
     applicationCategory: "MultimediaApplication",

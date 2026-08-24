@@ -6,7 +6,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "FitFile",
-    url: "https://fitfile.app",
+   url: "https://fitfile.vercel.app",
     description:
       "Online tools for compressing, resizing, and converting files.",
     applicationCategory: "UtilitiesApplication",

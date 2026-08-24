@@ -32,7 +32,7 @@ export default function ImageCompressorPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "FitFile Image Compressor",
-    url: "https://fitfile.app/image-compressor",
+    url: "https://fitfile.vercel.app/image-compressor",
     description:
       "Compress JPG, PNG, and WebP images online to a specific file-size limit.",
     applicationCategory: "MultimediaApplication",
@@ -45,6 +45,12 @@ export default function ImageCompressorPage() {
   };
   return (
     <main className="min-h-screen bg-[#080a09] text-white">
+            <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData),
+        }}
+      />
       <section className="px-6 pb-16 pt-24 lg:px-10 lg:pt-32">
         <div className="mx-auto max-w-5xl">
           <div className="text-center">

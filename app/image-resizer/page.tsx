@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Resize Images Online — Exact JPG, PNG & WebP Dimensions",
     description:
       "Resize JPG, PNG, and WebP images to exact dimensions online with FitFile. Preserve the original aspect ratio when needed.",
-    url: "https://fitfile.app/image-resizer",
+    url: "https://fitfile.vercel.app/image-resizer",
     siteName: "FitFile",
     type: "website",
   },
@@ -33,7 +33,7 @@ export default function ImageResizerPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "FitFile Image Resizer",
-    url: "https://fitfile.app/image-resizer",
+    url: "https://fitfile.vercel.app/image-resizer",
     description:
       "Resize JPG, PNG, and WebP images online to exact width and height.",
     applicationCategory: "MultimediaApplication",
