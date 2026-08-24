@@ -3,15 +3,15 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fitfile.app"),
+  metadataBase: new URL("https://fitfile.vercel.app"),
 
- title: {
-  default: "FitFile — Make Your Files Fit",
-  template: "%s | FitFile",
-},
+  title: {
+    default: "FitFile — Free Image Compressor, Converter & Resizer",
+    template: "%s | FitFile",
+  },
 
-description:
-  "Compress, resize, and convert files online. Make images and documents fit the size, dimensions, or format you need.",
+  description:
+    "Free online image tools to compress, resize, and convert JPG, PNG, WebP, and other image files quickly and easily.",
 
   keywords: [
     "image compressor",
@@ -37,7 +37,7 @@ description:
   authors: [
     {
       name: "FitFile",
-      url: "https://fitfile.app",
+      url: "https://fitfile.vercel.app",
     },
   ],
 
@@ -47,24 +47,24 @@ description:
   category: "technology",
 
   alternates: {
-    canonical: "https://fitfile.app",
+    canonical: "https://fitfile.vercel.app",
   },
 
   openGraph: {
     type: "website",
-    url: "https://fitfile.app",
+    url: "https://fitfile.vercel.app",
     siteName: "FitFile",
-    title: "FitFile — Make Your Files Fit",
+    title: "FitFile — Free Image Compressor, Converter & Resizer",
     description:
-      "Compress, resize, and convert files online. Make images and documents fit the size, dimensions, or format you need.",
+      "Free online image tools to compress, resize, and convert JPG, PNG, WebP, and other image files quickly and easily.",
     locale: "en_US",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "FitFile — Make Your Files Fit",
+    title: "FitFile — Free Image Compressor, Converter & Resizer",
     description:
-      "Compress, resize, and convert files online. Make your files fit the size, dimensions, or format you need.",
+      "Free online image tools to compress, resize, and convert JPG, PNG, WebP, and other image files quickly and easily.",
   },
 
   robots: {
